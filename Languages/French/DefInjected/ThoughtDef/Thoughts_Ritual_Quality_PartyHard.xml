@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Ces quatre pensees sont heritees de PartyHard et aucun resultat de rituel ne les
-       attribue : le rituel utilise les memoires *Insult. Traduites quand meme, pour que le
-       mod ne laisse rien d'anglais si un jour elles ressortent. -->
+  <!-- These four thoughts are inherited from PartyHard and no ritual outcome awards them: the
+       ritual uses the *Insult memories. Translated anyway, so the mod leaves nothing in
+       English should they ever come back into play. -->
 
   <!-- EN: terrible channeling -->
   <TerribleChanneling_PH.stages.terrible_channeling.label>canalisation épouvantable</TerribleChanneling_PH.stages.terrible_channeling.label>

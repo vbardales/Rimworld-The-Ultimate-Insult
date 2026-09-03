@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- {0} est le label du precepte, « insulte ultime » : feminin, et commencant par une
-       voyelle. D'ou « L'{0} a ete satisfaisante ». Changer le label du precepte oblige a
-       relire tous les accords de ce fichier. -->
+  <!-- {0} is the precept's label, "insulte ultime": feminine, and starting with a vowel. That
+       is what lets the descriptions read "L'{0} a ete satisfaisante" with correct agreement.
+       Renaming the precept means re-reading every agreement in this file. -->
 
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <UltimateInsult.description>Selon la qualité du rituel, les participants gagneront entre {MINMOOD} et {MAXMOOD} humeur pendant {MOODDAYS} jours.</UltimateInsult.description>
 
 
-  <!-- Seul le comp d'indice 3 porte un label ; les trois premiers sont des
-       RitualOutcomeComp_BuildingOfDefUsed, sans texte. -->
+  <!-- Only comp 3 carries a label; the first three are RitualOutcomeComp_BuildingOfDefUsed,
+       which have no text. -->
   <!-- EN: participant count -->
   <UltimateInsult.comps.3.label>nombre de participants</UltimateInsult.comps.3.label>
 

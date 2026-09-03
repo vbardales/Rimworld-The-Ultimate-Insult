@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Les etapes se designent par leur libelle anglais normalise, comme dans les fichiers
-       du jeu : stages.terrible_insulting et non stages.0. -->
+  <!-- Stages are addressed by their normalised English label, the way the game's own files do
+       it: stages.terrible_insulting, not stages.0. -->
 
   <!-- EN: terrible insulting -->
   <TerribleInsult.stages.terrible_insulting.label>insulte épouvantable</TerribleInsult.stages.terrible_insulting.label>

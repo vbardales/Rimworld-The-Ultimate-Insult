@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Les plans et chantiers sont generes a partir du label traduit : pas de cle a injecter
-       pour BigLiuLian_Blueprint, _Blueprint_Install ni _Frame. -->
+  <!-- Blueprints and frames are generated from the translated label, so there is no key to
+       inject for BigLiuLian_Blueprint, _Blueprint_Install or _Frame. -->
 
   <!-- EN: Large durian -->
   <BigLiuLian.label>gros durian</BigLiuLian.label>

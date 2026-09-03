@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
-    <!-- Nom d'assemblage et espace de noms conserves : les defs visent MFRitual.*,
-         et les reglages sont enregistres sous le nom de la classe Mod. -->
+    <!-- Assembly name and namespace are kept: the defs point at MFRitual.*, and the
+         settings are stored under the Mod class name. -->
     <AssemblyName>UltimateInsult</AssemblyName>
     <RootNamespace>MFRitual</RootNamespace>
     <LangVersion>latest</LangVersion>

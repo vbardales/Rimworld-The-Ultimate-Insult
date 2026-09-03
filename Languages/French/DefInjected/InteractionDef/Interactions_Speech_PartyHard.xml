@@ -4,9 +4,9 @@
   <!-- EN: awakening speech -->
   <Speech_Awakening_UInsult.label>discours d'éveil</Speech_Awakening_UInsult.label>
 
-  <!-- L'indice 0 est la regle r_logentry, qui n'a rien a traduire : les sujets de discours
-       commencent a 1. Ils sont inseres apres [spokeof], « a parle de » : chaque ligne doit
-       donc pouvoir suivre « de ». -->
+  <!-- Index 0 is the r_logentry rule, which has nothing to translate: the speech topics
+       start at 1. They are inserted after [spokeof], "spoke of": every line must therefore
+       be able to follow the French preposition "de". -->
 
   <!-- EN: speechtopic->the gestalt abilities of mankind -->
   <Speech_Awakening_UInsult.logRulesInitiator.rulesStrings.1>speechtopic-&gt;les facultés collectives de l'humanité</Speech_Awakening_UInsult.logRulesInitiator.rulesStrings.1>

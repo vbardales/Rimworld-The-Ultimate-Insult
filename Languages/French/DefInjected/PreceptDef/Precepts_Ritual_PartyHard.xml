@@ -2,9 +2,9 @@
 <LanguageData>
 
   <!-- EN: Ultimate Insult
-       Ce label remplit le {0} des descriptions de resultat du rituel. Il doit rester
-       FEMININ et commencer par une VOYELLE : les textes de Ritual_Outcomes_Insult.xml
-       ecrivent « L'{0} a ete satisfaisante » pour eviter un accord faux. -->
+       This label fills the {0} of the ritual's outcome descriptions. It has to stay FEMININE
+       and start with a VOWEL: the texts in Ritual_Outcomes_Insult.xml read
+       "L'{0} a ete satisfaisante", which is only correct under those two conditions. -->
   <UltimateInsult.label>insulte ultime</UltimateInsult.label>
 
 </LanguageData>

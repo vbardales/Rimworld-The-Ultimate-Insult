@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Les roles de UltimateInsult sont declares avec Inherit="False" : ils sont trois, dans
-       l'ordre madman, focus, target. Le def abstrait InsultBehaviorBase n'a pas de defName,
-       il ne se traduit pas. -->
+  <!-- UltimateInsult declares its roles with Inherit="False": there are three, in the order
+       madman, focus, target. The abstract InsultBehaviorBase has no defName and cannot be
+       translated. -->
 
   <!-- EN: MadMan -->
   <UltimateInsult.roles.0.label>meneur</UltimateInsult.roles.0.label>
