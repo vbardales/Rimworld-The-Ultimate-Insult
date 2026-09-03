@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <UltimateInsult.description>Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days.</UltimateInsult.description>
+  <UltimateInsult.outcomeChances.0.label>Terrible</UltimateInsult.outcomeChances.0.label>
+  <UltimateInsult.outcomeChances.0.description>The {0} was terrible! The speech was stuttering and incoherent. The focusing technique was botched. Everyone was waiting for it to end.</UltimateInsult.outcomeChances.0.description>
+  <UltimateInsult.outcomeChances.1.label>Boring</UltimateInsult.outcomeChances.1.label>
+  <UltimateInsult.outcomeChances.1.description>The {0} was boring. The speech was repetitive and the focusing technique was noticeably flawed. It just didn't feel dignified.</UltimateInsult.outcomeChances.1.description>
+  <UltimateInsult.outcomeChances.2.label>Satisfying</UltimateInsult.outcomeChances.2.label>
+  <UltimateInsult.outcomeChances.2.description>The {0} was satisfying. The speech felt meaningful, and the focusing technique was precise and dignified.</UltimateInsult.outcomeChances.2.description>
+  <UltimateInsult.outcomeChances.3.label>Spectacular</UltimateInsult.outcomeChances.3.label>
+  <UltimateInsult.outcomeChances.3.description>The {0} was spectacular! Even the psychically deaf could have felt the energy.</UltimateInsult.outcomeChances.3.description>
+  <UltimateInsult.comps.3.label>participant count</UltimateInsult.comps.3.label>
+
+
+</LanguageData>

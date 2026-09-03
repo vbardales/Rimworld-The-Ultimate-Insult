@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RitualOutcomeEffectDef>
+    <defName>UltimateInsult</defName>
+    <description>Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days.</description>
+    <workerClass>MFRitual.RitualOutcomeEffectWorker_Channeling_UInsult</workerClass>
+    <extraPredictedOutcomeDescriptions MayRequire="Ludeon.RimWorld.Royalty">
+      <li>If the {0} is satisfying, the target person will get a psylink upgrade.</li>
+    </extraPredictedOutcomeDescriptions>
+    <!-- <allowAttachableOutcome>false</allowAttachableOutcome> -->
+    <comps>
+      <li Class="RitualOutcomeComp_BuildingOfDefUsed">
+        <def>BigLiuLian</def>
+        <qualityOffset>0.1</qualityOffset>
+        <maxHorDistFromTarget>1</maxHorDistFromTarget>
+      </li>
+      <li Class="RitualOutcomeComp_BuildingOfDefUsed">
+        <def>TubeTelevision</def>
+        <qualityOffset>0.15</qualityOffset>
+        <maxHorDistFromTarget>5</maxHorDistFromTarget>
+      </li>
+      <li Class="RitualOutcomeComp_BuildingOfDefUsed">
+        <def>LaoHuQian</def>
+        <qualityOffset>0.15</qualityOffset>
+        <maxHorDistFromTarget>1</maxHorDistFromTarget>
+      </li>
+      <li Class="RitualOutcomeComp_ParticipantCount">
+        <label>participant count</label>
+        <curve>
+          <points>
+            <li>(1,  0.15)</li>
+            <li>(2,  0.25)</li>
+            <li>(1,  0.40)</li>
+            <li>(4,  0.60)</li>
+          </points>
+        </curve>
+      </li>
+    </comps>
+    <outcomeChances>
+      <li>
+        <label>Terrible</label>
+        <chance>0.05</chance>
+        <memory>TerribleInsult</memory>
+        <description>The {0} was terrible! The speech was stuttering and incoherent. The focusing technique was botched. Everyone was waiting for it to end.</description>
+        <positivityIndex>-2</positivityIndex>
+      </li>
+      <li>
+        <label>Boring</label>
+        <chance>0.15</chance>
+        <memory>BoringInsult</memory>
+        <description>The {0} was boring. The speech was repetitive and the focusing technique was noticeably flawed. It just didn't feel dignified.</description>
+        <positivityIndex>-1</positivityIndex>
+      </li>
+      <li>
+        <label>Satisfying</label>
+        <chance>0.6</chance>
+        <memory>SatisfyingInsult</memory>
+        <description>The {0} was satisfying. The speech felt meaningful, and the focusing technique was precise and dignified.</description>
+        <potentialExtraOutcomeDesc>The channeling target will get a psylink upgrade.</potentialExtraOutcomeDesc>
+        <positivityIndex>1</positivityIndex>
+      </li>
+      <li>
+        <label>Spectacular</label>
+        <chance>0.2</chance>
+        <memory>SpectacularInsult</memory>
+        <description>The {0} was spectacular! Even the psychically deaf could have felt the energy.</description>
+        <potentialExtraOutcomeDesc>The channeling target will get a psylink upgrade.</potentialExtraOutcomeDesc>
+        <positivityIndex>2</positivityIndex>
+      </li>
+    </outcomeChances>
+  </RitualOutcomeEffectDef>
+</Defs>

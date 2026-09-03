@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <InteractionDef>
+    <defName>Speech_Awakening_UInsult</defName>
+    <label>awakening speech</label>
+    <workerClass>InteractionWorker</workerClass>
+    <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>
+    <symbol>Things/Mote/SpeechSymbols/Speech</symbol>
+    <logRulesInitiator>
+      <include>
+        <li>SpeechUtility</li>
+      </include>
+      <rulesStrings>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+        <li>speechtopic-&gt;the gestalt abilities of mankind</li>
+        <li>speechtopic-&gt;awakening the self</li>
+        <li>speechtopic-&gt;uniting for the greater good</li>
+        <li>speechtopic-&gt;choosing right beliefs</li>
+        <li>speechtopic-&gt;the moral structure of the universe</li>
+        <li>speechtopic-&gt;mankind's history</li>
+        <li>speechtopic-&gt;the future of mankind</li>
+        <li>speechtopic-&gt;joining and growing</li>
+        <li>speechtopic-&gt;progress towards the future</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+</Defs>

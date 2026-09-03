@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- RitualOutcomeEffectDef -->
+<LanguageData>
+  <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+  <UltimateInsult.description>取决于仪式的品质,参与者会得到{MINMOOD} 和 {MAXMOOD} 之间的心情加成持续{MOODDAYS} 天。</UltimateInsult.description>
+  <!-- EN: If the {0} is satisfying, the target person will get a psylink upgrade. -->
+  <UltimateInsult.extraPredictedOutcomeDescriptions.0>如果 {0} 是满意的, 目标小人会得到一级启灵神经。</UltimateInsult.extraPredictedOutcomeDescriptions.0>
+  <!-- EN: participant count -->
+  <UltimateInsult.comps.1.label>参与者数目</UltimateInsult.comps.1.label>
+  <!-- EN: Terrible -->
+  <UltimateInsult.outcomeChances.0.label>糟糕的</UltimateInsult.outcomeChances.0.label>
+  <!-- EN: The {0} was terrible! The speech was stuttering and incoherent. The focusing technique was botched. Everyone was waiting for it to end. -->
+  <UltimateInsult.outcomeChances.0.description>{0} 太糟了!演讲结结巴巴，语无伦次。侮辱技术一团糟。每个人都等着它结束。</UltimateInsult.outcomeChances.0.description>
+  <!-- EN: Boring -->
+  <UltimateInsult.outcomeChances.1.label>无聊的</UltimateInsult.outcomeChances.1.label>
+  <!-- EN: The {0} was boring. The speech was repetitive and the focusing technique was noticeably flawed. It just didn't feel dignified. -->
+  <UltimateInsult.outcomeChances.1.description> {0} 真无聊。演讲内容重复，侮辱技术明显有缺陷。只是感觉一般。</UltimateInsult.outcomeChances.1.description>
+  <!-- EN: Satisfying -->
+  <UltimateInsult.outcomeChances.2.label>满意的</UltimateInsult.outcomeChances.2.label>
+  <!-- EN: The {0} was satisfying. The speech felt meaningful, and the focusing technique was precise and dignified. -->
+  <UltimateInsult.outcomeChances.2.description>{0} 让人满意。演讲让人感觉有意义，侮辱技巧强而有力。</UltimateInsult.outcomeChances.2.description>
+  <!-- EN: The channeling target will get a psylink upgrade. -->
+  <UltimateInsult.outcomeChances.2.potentialExtraOutcomeDesc>目标将获得启灵神经升级。</UltimateInsult.outcomeChances.2.potentialExtraOutcomeDesc>
+  <!-- EN: Spectacular -->
+  <UltimateInsult.outcomeChances.3.label>极好的</UltimateInsult.outcomeChances.3.label>
+  <!-- EN: The {0} was spectacular! Even the psychically deaf could have felt the energy. -->
+  <UltimateInsult.outcomeChances.3.description>{0} 太棒了! 即使是灵能失聪的人也能感受到这种能量。</UltimateInsult.outcomeChances.3.description>
+  <!-- EN: The channeling target will get a psylink upgrade. -->
+  <UltimateInsult.outcomeChances.3.potentialExtraOutcomeDesc>目标将获得启灵神经升级。</UltimateInsult.outcomeChances.3.potentialExtraOutcomeDesc>
+</LanguageData>

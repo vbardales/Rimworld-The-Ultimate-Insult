@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>BigLiuLian</defName>
+    <label>Large durian</label>
+    <description>The secret weapon will give you a surprise!</description>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <uiOrder>2090</uiOrder>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Building/durian</texPath>
+      <drawSize>(2,2)</drawSize>
+      <drawOffset>(0, 0, 0)</drawOffset>
+      <shadowData>
+        <volume>(0.8, 1.5, 0.8)</volume>
+        <offset>(0, 0, -0.1)</offset>
+      </shadowData>
+    </graphicData>
+    <size>(1,1)</size>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Beauty>25</Beauty>
+      <Mass>5</Mass>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(139,105,20,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <designationCategory>Ideology</designationCategory>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <building>
+      <buildingTags>
+        <li>RitualFocus</li>
+      </buildingTags>
+      <paintable>true</paintable>
+    </building>
+    <ritualFocus>
+      <spectateDistance>2</spectateDistance>
+      <allowedSpectateSides>Up</allowedSpectateSides>
+    </ritualFocus>
+    <placeWorkers>
+      <li>PlaceWorker_RitualPosition</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>True</drawPlaceWorkersWhileSelected>
+    <fillPercent>0.35</fillPercent>
+    <useHitPoints>true</useHitPoints>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>LaoHuQian</defName>
+    <label>Sea Tiger blasting pliers</label>
+    <description>Say goodbye to your little brother!</description>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <uiOrder>2090</uiOrder>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Building/pliers</texPath>
+      <drawSize>(1.5,1.5)</drawSize>
+      <drawOffset>(0, 0, 0)</drawOffset>
+      <shadowData>
+        <volume>(0.8, 1.5, 0.8)</volume>
+        <offset>(0, 0, -0.25)</offset>
+      </shadowData>
+    </graphicData>
+    <size>(1,1)</size>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Beauty>25</Beauty>
+      <Mass>5</Mass>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(139,105,20,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <designationCategory>Ideology</designationCategory>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <building>
+      <buildingTags>
+        <li>RitualFocus</li>
+      </buildingTags>
+      <paintable>true</paintable>
+    </building>
+    <ritualFocus>
+      <spectateDistance>2</spectateDistance>
+      <allowedSpectateSides>Up</allowedSpectateSides>
+    </ritualFocus>
+    <placeWorkers>
+      <li>PlaceWorker_RitualPosition</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>True</drawPlaceWorkersWhileSelected>
+    <fillPercent>0.35</fillPercent>
+    <useHitPoints>true</useHitPoints>
+  </ThingDef>
+</Defs>

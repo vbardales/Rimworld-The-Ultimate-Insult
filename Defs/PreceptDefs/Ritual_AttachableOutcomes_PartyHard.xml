@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RitualAttachableOutcomeEffectDef>
+    <defName>GainInsult</defName>
+    <label>gain insult</label>
+    <effectDesc>The victims are tortured inhumanely.</effectDesc>
+    <letterInfoText>Finally the ultimate insult was given.</letterInfoText>
+    <workerClass>MFRitual.RitualAttachableOutcomeEffectWorker_UInsult_ResistanceReduce</workerClass>
+  </RitualAttachableOutcomeEffectDef>
+</Defs>

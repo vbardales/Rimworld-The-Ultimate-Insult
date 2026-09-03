@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MF.reducewill>Whether to reduce the will</MF.reducewill>
+  <MF.reducewill.Desc>If enabled, the ultimate insult ritual will also reduce the prisoner's will</MF.reducewill.Desc>
+</LanguageData>

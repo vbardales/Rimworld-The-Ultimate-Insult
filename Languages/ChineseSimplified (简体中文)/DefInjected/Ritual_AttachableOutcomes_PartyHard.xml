@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- RitualAttachableOutcomeEffectDef -->
+<LanguageData>
+  <!-- EN: gain insult -->
+  <GainInsult.label>被侮辱</GainInsult.label>
+  <!-- EN: The victims are tortured inhumanely. -->
+  <GainInsult.effectDesc>受害者被惨无人道地折磨。</GainInsult.effectDesc>
+  <!-- EN: Finally the ultimate insult was given. -->
+  <GainInsult.letterInfoText>终极侮辱被给予了。</GainInsult.letterInfoText>
+</LanguageData>

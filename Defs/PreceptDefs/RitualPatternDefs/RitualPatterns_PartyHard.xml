@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RitualPatternDef ParentName="CelebrationPartyChat">
+    <defName>UltimateInsult</defName>
+    <ritualBehavior>UltimateInsult</ritualBehavior>
+    <shortDescOverride>The Ultimate insult</shortDescOverride>
+    <descOverride>Being abused by several big guys,the victim's resistance will broken immediately</descOverride>
+    <ritualOutcomeEffect>UltimateInsult</ritualOutcomeEffect>
+  </RitualPatternDef>
+</Defs>
