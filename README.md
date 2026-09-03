@@ -40,6 +40,10 @@ Two things were fixed around the mod rather than in it:
 - **The copy of `UnityEngine.CoreModule.dll` was dropped.** The original shipped one of the game's
   own libraries next to its assembly; that should never travel with a mod.
 
+One thing was fixed inside it: the settings window used to scroll. Its single checkbox sat in a
+scroll view whose content was always taller than the window, so a scrollbar showed permanently
+for one option.
+
 Known defects inherited from the original are listed in [ATTRIBUTION.md](ATTRIBUTION.md), left in
 place on purpose so this stays an update rather than a rewrite.
 

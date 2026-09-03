@@ -83,6 +83,15 @@ precepts, patterns, behaviours, outcomes, thoughts, interactions: all of them re
   a mod and can confuse loading. It was left out. The Visual Studio `.vs/` folder, also published
   by mistake, was left out too.
 
+## One thing fixed in the mod
+
+**The settings window scrolled for a single checkbox.** `DoSettingsWindowContents` wrapped its one
+option in a `Widgets.BeginScrollView` whose content rect was `inRect.height * 1.2f` — always taller
+than the window it sits in, so the scrollbar was guaranteed to appear no matter what. The scroll
+view is gone; the checkbox is drawn straight into `inRect`. With it went `scrollPos`, and the three
+other unused settings fields inherited from PartyHard (`entryScale`, `entriesPerRow`, `maxRows`).
+None of them were ever scribed — only `reducewill` is — so saved settings are unaffected.
+
 ## Original defects left as they are
 
 So that this stays an update and not a rewrite:

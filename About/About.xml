@@ -32,6 +32,8 @@ Two things were fixed around it rather than in it:
 - Harmony is now declared as a dependency. The original called into Harmony from its Mod constructor without listing it, so on a setup without Harmony the mod would fail to load with no useful message. RimWorld does not ship Harmony itself.
 - The original shipped a copy of UnityEngine.CoreModule.dll next to its own assembly. That is one of the game's own libraries and should never travel with a mod; it has been left out.
 
+One thing was fixed inside it: the settings window used to scroll. Its single checkbox sat in a scroll view whose content was always taller than the window, so a scrollbar showed permanently for one option.
+
 The update also adds a French translation. The mod now ships English, MoFish's own Simplified Chinese, and French.
 
 

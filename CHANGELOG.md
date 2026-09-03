@@ -21,6 +21,12 @@ First release of the 1.6 update. The mod's own logic is unchanged from MoFish's 
   `MayRequire="Ludeon.RimWorld.Royalty"` field lives in a `Royalty/` folder, loaded through a new
   `LoadFolders.xml` only when the DLC is active.
 
+### Fixed
+
+- The settings window no longer scrolls. Its single checkbox was wrapped in a scroll view whose
+  content was always taller than the window, so a scrollbar showed permanently for one option.
+
+
 ### Removed
 
 - The copy of `UnityEngine.CoreModule.dll` the original shipped next to its assembly. It is one
