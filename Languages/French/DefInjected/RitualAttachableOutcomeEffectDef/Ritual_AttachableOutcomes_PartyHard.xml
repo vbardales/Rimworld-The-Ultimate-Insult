@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: gain insult -->
+  <GainInsult.label>insulte infligée</GainInsult.label>
+  <!-- EN: The victims are tortured inhumanely. -->
+  <GainInsult.effectDesc>Les victimes sont torturées de façon inhumaine.</GainInsult.effectDesc>
+  <!-- EN: Finally the ultimate insult was given. -->
+  <GainInsult.letterInfoText>L'insulte ultime a fini par être infligée.</GainInsult.letterInfoText>
+
+</LanguageData>

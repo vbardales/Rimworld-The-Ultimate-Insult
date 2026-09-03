@@ -22,6 +22,8 @@ Sea Tiger blasting pliers.
 
 Requires **Ideology**. Requires **Harmony**.
 
+Available in English, Simplified Chinese (MoFish's own) and French.
+
 Safe to add to an ongoing save. Removing it mid-save removes the ritual and its two props.
 
 ## What changed in the 1.6 update

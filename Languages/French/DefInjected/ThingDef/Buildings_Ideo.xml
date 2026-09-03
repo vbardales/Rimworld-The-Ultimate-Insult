@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Les plans et chantiers sont generes a partir du label traduit : pas de cle a injecter
+       pour BigLiuLian_Blueprint, _Blueprint_Install ni _Frame. -->
+
+  <!-- EN: Large durian -->
+  <BigLiuLian.label>gros durian</BigLiuLian.label>
+  <!-- EN: The secret weapon will give you a surprise! -->
+  <BigLiuLian.description>L'arme secrète vous réserve une surprise !</BigLiuLian.description>
+
+  <!-- EN: Sea Tiger blasting pliers -->
+  <LaoHuQian.label>pinces de démolition Tigre de mer</LaoHuQian.label>
+  <!-- EN: Say goodbye to your little brother! -->
+  <LaoHuQian.description>Dis adieu à ton petit frère !</LaoHuQian.description>
+
+</LanguageData>

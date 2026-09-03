@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+  <!--
+    Le mod n'a qu'une version cible ; ce fichier ne sert qu'au dossier conditionne.
+    « extraPredictedOutcomeDescriptions » de UltimateInsult porte
+    MayRequire="Ludeon.RimWorld.Royalty" : sans Royalty le champ n'existe pas dans le def,
+    et une cle DefInjected qui le vise part en erreur dans le rapport de traduction. Sa
+    traduction vit donc dans Royalty/, charge seulement quand le DLC est actif.
+  -->
+  <v1.6>
+    <li>/</li>
+    <li IfModActive="Ludeon.RimWorld.Royalty">Royalty</li>
+  </v1.6>
+</loadFolders>

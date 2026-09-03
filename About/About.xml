@@ -32,6 +32,9 @@ Two things were fixed around it rather than in it:
 - Harmony is now declared as a dependency. The original called into Harmony from its Mod constructor without listing it, so on a setup without Harmony the mod would fail to load with no useful message. RimWorld does not ship Harmony itself.
 - The original shipped a copy of UnityEngine.CoreModule.dll next to its own assembly. That is one of the game's own libraries and should never travel with a mod; it has been left out.
 
+The update also adds a French translation. The mod now ships English, MoFish's own Simplified Chinese, and French.
+
+
 Safe to add to an ongoing save. Removing it mid-save removes the ritual and its two props.
 
 Source, changelog and the list of defects inherited from the original: https://github.com/vbardales/Rimworld-The-Ultimate-Insult

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: Ultimate Insult
+       Ce label remplit le {0} des descriptions de resultat du rituel. Il doit rester
+       FEMININ et commencer par une VOYELLE : les textes de Ritual_Outcomes_Insult.xml
+       ecrivent « L'{0} a ete satisfaisante » pour eviter un accord faux. -->
+  <UltimateInsult.label>insulte ultime</UltimateInsult.label>
+
+</LanguageData>

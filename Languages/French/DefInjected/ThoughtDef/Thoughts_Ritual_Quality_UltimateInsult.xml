@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Les etapes se designent par leur libelle anglais normalise, comme dans les fichiers
+       du jeu : stages.terrible_insulting et non stages.0. -->
+
+  <!-- EN: terrible insulting -->
+  <TerribleInsult.stages.terrible_insulting.label>insulte épouvantable</TerribleInsult.stages.terrible_insulting.label>
+  <!-- EN: That insulting was botched and the mood was way off. What an awkward ceremony. -->
+  <TerribleInsult.stages.terrible_insulting.description>Cette insulte a été bâclée et l'ambiance était complètement à côté. Quelle cérémonie embarrassante.</TerribleInsult.stages.terrible_insulting.description>
+
+  <!-- EN: boring insulting -->
+  <BoringInsult.stages.boring_insulting.label>insulte ennuyeuse</BoringInsult.stages.boring_insulting.label>
+  <!-- EN: That insulting lacked passion and the technique wasn't great. -->
+  <BoringInsult.stages.boring_insulting.description>Cette insulte manquait de passion, et la technique n'était pas fameuse.</BoringInsult.stages.boring_insulting.description>
+
+  <!-- EN: satisfying insulting -->
+  <SatisfyingInsult.stages.satisfying_insulting.label>insulte satisfaisante</SatisfyingInsult.stages.satisfying_insulting.label>
+  <!-- EN: That insulting was satisfying. The awakened has been granted a wonderful gift. -->
+  <SatisfyingInsult.stages.satisfying_insulting.description>Cette insulte était satisfaisante. L'éveillé s'est vu accorder un cadeau merveilleux.</SatisfyingInsult.stages.satisfying_insulting.description>
+
+  <!-- EN: spectacular insulting -->
+  <SpectacularInsult.stages.spectacular_insulting.label>insulte spectaculaire</SpectacularInsult.stages.spectacular_insulting.label>
+  <!-- EN: The mind's many wonders were laid clear for the briefest of instants. -->
+  <SpectacularInsult.stages.spectacular_insulting.description>Les innombrables merveilles de l'esprit se sont révélées l'espace d'un instant.</SpectacularInsult.stages.spectacular_insulting.description>
+
+</LanguageData>

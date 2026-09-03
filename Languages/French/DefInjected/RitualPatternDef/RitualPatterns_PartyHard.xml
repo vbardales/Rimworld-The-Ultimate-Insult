@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: The Ultimate insult -->
+  <UltimateInsult.shortDescOverride>L'insulte ultime</UltimateInsult.shortDescOverride>
+  <!-- EN: Being abused by several big guys,the victim's resistance will broken immediately -->
+  <UltimateInsult.descOverride>Malmenée par plusieurs colosses, la victime voit sa résistance brisée sur-le-champ.</UltimateInsult.descOverride>
+
+</LanguageData>

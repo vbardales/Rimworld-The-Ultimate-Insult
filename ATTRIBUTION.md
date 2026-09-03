@@ -38,7 +38,31 @@ as a cross-check on naming and intent — which is where the original field name
 the `packageId` change.
 
 The defs live at the root in MoFish's layout — only the assemblies were sorted into version
-folders — which is why there is no version folder here and no `LoadFolders.xml`.
+folders — which is why there is no version folder here.
+
+## What this update adds
+
+A **French translation**: `Languages/French/`, 59 keys, covering everything the mod displays —
+the two props, the precept, the ritual pattern, the roles and fail messages, the four outcomes,
+the eight ritual thoughts, the speech topics and the mod setting.
+
+Two things it had to work around:
+
+- **The `{0}` of the outcome descriptions is the precept label.** French would need the article
+  to agree with it. The precept is translated as *insulte ultime* — feminine, and starting with a
+  vowel — so the descriptions can be written `L'{0} a été satisfaisante` and stay correct.
+  Renaming the precept means re-reading every agreement in
+  `DefInjected/RitualOutcomeEffectDef/Ritual_Outcomes_Insult.xml`.
+- **`extraPredictedOutcomeDescriptions` carries `MayRequire="Ludeon.RimWorld.Royalty"`.** Without
+  Royalty the field does not exist on the def, and a translation key aiming at it fails in the
+  translation report. Its French line therefore lives in `Royalty/`, loaded only when the DLC is
+  active — which is what the `LoadFolders.xml` in this repository is for. It is not the original's
+  version-folder `LoadFolders.xml`, which was dropped.
+
+The Simplified Chinese translation is MoFish's and was kept as shipped, including the parts of it
+that do not resolve — nine files sitting loose at the root of `DefInjected/` instead of in a def
+type folder, and thought stages addressed by index rather than by handle. Fixing them would be a
+change to the original's own translation, which this update does not make.
 
 ## What 1.6 required
 

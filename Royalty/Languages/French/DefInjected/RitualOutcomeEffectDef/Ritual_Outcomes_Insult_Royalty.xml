@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Charge uniquement si Royalty est actif : voir LoadFolders.xml. -->
+
+  <!-- EN: If the {0} is satisfying, the target person will get a psylink upgrade. -->
+  <UltimateInsult.extraPredictedOutcomeDescriptions.0>Si l'{0} est satisfaisante, la cible gagnera un niveau de lien psychique.</UltimateInsult.extraPredictedOutcomeDescriptions.0>
+
+</LanguageData>

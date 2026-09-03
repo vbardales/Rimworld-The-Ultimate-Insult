@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Les roles de UltimateInsult sont declares avec Inherit="False" : ils sont trois, dans
+       l'ordre madman, focus, target. Le def abstrait InsultBehaviorBase n'a pas de defName,
+       il ne se traduit pas. -->
+
+  <!-- EN: MadMan -->
+  <UltimateInsult.roles.0.label>meneur</UltimateInsult.roles.0.label>
+  <!-- EN: the MadMan -->
+  <UltimateInsult.roles.0.missingDesc>le meneur</UltimateInsult.roles.0.missingDesc>
+  <!-- EN: focus -->
+  <UltimateInsult.roles.1.label>orateur</UltimateInsult.roles.1.label>
+  <!-- EN: the focus of the insulting -->
+  <UltimateInsult.roles.1.missingDesc>l'orateur de l'insulte</UltimateInsult.roles.1.missingDesc>
+  <!-- EN: target -->
+  <UltimateInsult.roles.2.label>victime</UltimateInsult.roles.2.label>
+  <!-- EN: a prisoner -->
+  <UltimateInsult.roles.2.missingDesc>un prisonnier</UltimateInsult.roles.2.missingDesc>
+
+  <!-- EN: Prisoner is not reachable. -->
+  <UltimateInsult.stages.0.failTriggers.0.desc>Le prisonnier n'est pas accessible.</UltimateInsult.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <UltimateInsult.stages.0.failTriggers.1.desc>escorte endormie</UltimateInsult.stages.0.failTriggers.1.desc>
+
+</LanguageData>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: awakening speech -->
+  <Speech_Awakening_UInsult.label>discours d'éveil</Speech_Awakening_UInsult.label>
+
+  <!-- L'indice 0 est la regle r_logentry, qui n'a rien a traduire : les sujets de discours
+       commencent a 1. Ils sont inseres apres [spokeof], « a parle de » : chaque ligne doit
+       donc pouvoir suivre « de ». -->
+
+  <!-- EN: speechtopic->the gestalt abilities of mankind -->
+  <Speech_Awakening_UInsult.logRulesInitiator.rulesStrings.1>speechtopic-&gt;les facultés collectives de l'humanité</Speech_Awakening_UInsult.logRulesInitiator.rulesStrings.1>
+  <!-- EN: speechtopic->awakening the self -->
+  <Speech_Awakening_UInsult.logRulesInitiator.rulesStrings.2>speechtopic-&gt;l'éveil de soi</Speech_Awakening_UInsult.logRulesInitiator.rulesStrings.2>
+  <!-- EN: speechtopic->uniting for the greater good -->
+  <Speech_Awakening_UInsult.logRulesInitiator.rulesStrings.3>speechtopic-&gt;l'union pour le bien commun</Speech_Awakening_UInsult.logRulesInitiator.rulesStrings.3>
+  <!-- EN: speechtopic->choosing right beliefs -->
+  <Speech_Awakening_UInsult.logRulesInitiator.rulesStrings.4>speechtopic-&gt;l'art de choisir les bonnes croyances</Speech_Awakening_UInsult.logRulesInitiator.rulesStrings.4>
+  <!-- EN: speechtopic->the moral structure of the universe -->
+  <Speech_Awakening_UInsult.logRulesInitiator.rulesStrings.5>speechtopic-&gt;la structure morale de l'univers</Speech_Awakening_UInsult.logRulesInitiator.rulesStrings.5>
+  <!-- EN: speechtopic->mankind's history -->
+  <Speech_Awakening_UInsult.logRulesInitiator.rulesStrings.6>speechtopic-&gt;l'histoire de l'humanité</Speech_Awakening_UInsult.logRulesInitiator.rulesStrings.6>
+  <!-- EN: speechtopic->the future of mankind -->
+  <Speech_Awakening_UInsult.logRulesInitiator.rulesStrings.7>speechtopic-&gt;l'avenir de l'humanité</Speech_Awakening_UInsult.logRulesInitiator.rulesStrings.7>
+  <!-- EN: speechtopic->joining and growing -->
+  <Speech_Awakening_UInsult.logRulesInitiator.rulesStrings.8>speechtopic-&gt;l'union et la croissance</Speech_Awakening_UInsult.logRulesInitiator.rulesStrings.8>
+  <!-- EN: speechtopic->progress towards the future -->
+  <Speech_Awakening_UInsult.logRulesInitiator.rulesStrings.9>speechtopic-&gt;la marche vers l'avenir</Speech_Awakening_UInsult.logRulesInitiator.rulesStrings.9>
+
+</LanguageData>

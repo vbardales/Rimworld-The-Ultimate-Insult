@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- {0} est le label du precepte, « insulte ultime » : feminin, et commencant par une
+       voyelle. D'ou « L'{0} a ete satisfaisante ». Changer le label du precepte oblige a
+       relire tous les accords de ce fichier. -->
+
+  <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+  <UltimateInsult.description>Selon la qualité du rituel, les participants gagneront entre {MINMOOD} et {MAXMOOD} humeur pendant {MOODDAYS} jours.</UltimateInsult.description>
+
+
+  <!-- Seul le comp d'indice 3 porte un label ; les trois premiers sont des
+       RitualOutcomeComp_BuildingOfDefUsed, sans texte. -->
+  <!-- EN: participant count -->
+  <UltimateInsult.comps.3.label>nombre de participants</UltimateInsult.comps.3.label>
+
+  <!-- EN: Terrible -->
+  <UltimateInsult.outcomeChances.0.label>Épouvantable</UltimateInsult.outcomeChances.0.label>
+  <!-- EN: The {0} was terrible! The speech was stuttering and incoherent. The focusing technique was botched. Everyone was waiting for it to end. -->
+  <UltimateInsult.outcomeChances.0.description>L'{0} a été épouvantable ! Le discours était hésitant et décousu, et la technique de concentration complètement ratée. Tout le monde attendait que ça se termine.</UltimateInsult.outcomeChances.0.description>
+
+  <!-- EN: Boring -->
+  <UltimateInsult.outcomeChances.1.label>Terne</UltimateInsult.outcomeChances.1.label>
+  <!-- EN: The {0} was boring. The speech was repetitive and the focusing technique was noticeably flawed. It just didn't feel dignified. -->
+  <UltimateInsult.outcomeChances.1.description>L'{0} a été terne. Le discours était répétitif et la technique de concentration visiblement défaillante. Ça manquait tout simplement de tenue.</UltimateInsult.outcomeChances.1.description>
+
+  <!-- EN: Satisfying -->
+  <UltimateInsult.outcomeChances.2.label>Satisfaisante</UltimateInsult.outcomeChances.2.label>
+  <!-- EN: The {0} was satisfying. The speech felt meaningful, and the focusing technique was precise and dignified. -->
+  <UltimateInsult.outcomeChances.2.description>L'{0} a été satisfaisante. Le discours avait du sens, et la technique de concentration était précise et digne.</UltimateInsult.outcomeChances.2.description>
+  <!-- EN: The channeling target will get a psylink upgrade. -->
+  <UltimateInsult.outcomeChances.2.potentialExtraOutcomeDesc>La cible de la canalisation gagnera un niveau de lien psychique.</UltimateInsult.outcomeChances.2.potentialExtraOutcomeDesc>
+
+  <!-- EN: Spectacular -->
+  <UltimateInsult.outcomeChances.3.label>Spectaculaire</UltimateInsult.outcomeChances.3.label>
+  <!-- EN: The {0} was spectacular! Even the psychically deaf could have felt the energy. -->
+  <UltimateInsult.outcomeChances.3.description>L'{0} a été spectaculaire ! Même les esprits psychiquement hermétiques en auraient senti l'énergie.</UltimateInsult.outcomeChances.3.description>
+  <!-- EN: The channeling target will get a psylink upgrade. -->
+  <UltimateInsult.outcomeChances.3.potentialExtraOutcomeDesc>La cible de la canalisation gagnera un niveau de lien psychique.</UltimateInsult.outcomeChances.3.potentialExtraOutcomeDesc>
+
+</LanguageData>

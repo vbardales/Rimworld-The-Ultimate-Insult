@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ces quatre pensees sont heritees de PartyHard et aucun resultat de rituel ne les
+       attribue : le rituel utilise les memoires *Insult. Traduites quand meme, pour que le
+       mod ne laisse rien d'anglais si un jour elles ressortent. -->
+
+  <!-- EN: terrible channeling -->
+  <TerribleChanneling_PH.stages.terrible_channeling.label>canalisation épouvantable</TerribleChanneling_PH.stages.terrible_channeling.label>
+  <!-- EN: That channeling was botched and the mood was way off. What an awkward ceremony. -->
+  <TerribleChanneling_PH.stages.terrible_channeling.description>Cette canalisation a été bâclée et l'ambiance était complètement à côté. Quelle cérémonie embarrassante.</TerribleChanneling_PH.stages.terrible_channeling.description>
+
+  <!-- EN: boring channeling -->
+  <BoringChanneling_PH.stages.boring_channeling.label>canalisation ennuyeuse</BoringChanneling_PH.stages.boring_channeling.label>
+  <!-- EN: That channeling lacked passion and the technique wasn't great. -->
+  <BoringChanneling_PH.stages.boring_channeling.description>Cette canalisation manquait de passion, et la technique n'était pas fameuse.</BoringChanneling_PH.stages.boring_channeling.description>
+
+  <!-- EN: satisfying channeling -->
+  <SatisfyingChanneling_PH.stages.satisfying_channeling.label>canalisation satisfaisante</SatisfyingChanneling_PH.stages.satisfying_channeling.label>
+  <!-- EN: That channeling was satisfying. The awakened has been granted a wonderful gift. -->
+  <SatisfyingChanneling_PH.stages.satisfying_channeling.description>Cette canalisation était satisfaisante. L'éveillé s'est vu accorder un cadeau merveilleux.</SatisfyingChanneling_PH.stages.satisfying_channeling.description>
+
+  <!-- EN: spectacular channeling -->
+  <SpectacularChanneling_PH.stages.spectacular_channeling.label>canalisation spectaculaire</SpectacularChanneling_PH.stages.spectacular_channeling.label>
+  <!-- EN: The mind's many wonders were laid clear for the briefest of instants. -->
+  <SpectacularChanneling_PH.stages.spectacular_channeling.description>Les innombrables merveilles de l'esprit se sont révélées l'espace d'un instant.</SpectacularChanneling_PH.stages.spectacular_channeling.description>
+
+</LanguageData>
