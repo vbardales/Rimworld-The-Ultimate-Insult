@@ -56,6 +56,17 @@ If MoFish comes back to the mod, or asks for this to be taken down, it comes dow
 If I do not answer within a reasonable time after being contacted, anyone may freely update this
 or any other of my mods, including publishing a continuation of it. All credit must be preserved.
 
+## Layout
+
+`Mod/` is the mod itself, and the only thing published: RimWorld's Workshop uploader calls
+`SteamUGC.SetItemContent` on the mod's root folder and sends it whole, with no way to exclude
+anything. Everything a subscriber does not need therefore lives outside it — `Source/`, the
+full-resolution artwork in `Art/`, and this file.
+
+`ATTRIBUTION.md` is deliberately duplicated into `Mod/`: credit has to travel with the
+distribution, not only with the repository. **The two copies desynchronise silently — edit the
+one at the root, then copy it over.**
+
 ## Building
 
 ```
@@ -63,9 +74,9 @@ dotnet build Source/UltimateInsult.csproj -c Release
 ```
 
 Reference assemblies come from NuGet (`Krafs.Rimworld.Ref`), so no RimWorld install is needed to
-compile. The output goes to `Assemblies/`; build intermediates are kept out of the mod folder by
-`Source/Directory.Build.props`, because the Workshop uploader publishes the mod folder as-is with
-no way to exclude anything.
+compile. The output goes to `Mod/Assemblies/`, and build intermediates are written outside the mod
+folder entirely by `Source/Directory.Build.props` — without that, `obj/` would carry the publicised
+`Assembly-CSharp.dll` to every subscriber.
 
 ## Credits
 

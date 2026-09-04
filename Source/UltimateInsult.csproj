@@ -9,7 +9,8 @@
     <LangVersion>latest</LangVersion>
     <Nullable>disable</Nullable>
     <Configuration>Release</Configuration>
-    <OutputPath>..\Assemblies\</OutputPath>
+    <!-- Mod/ is what the Workshop uploader publishes; Source/ deliberately sits outside it. -->
+    <OutputPath>..\Mod\Assemblies\</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <DebugType>none</DebugType>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
