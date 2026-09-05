@@ -3,10 +3,8 @@
 <LanguageData>
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <UltimateInsult.description>取决于仪式的品质,参与者会得到{MINMOOD} 和 {MAXMOOD} 之间的心情加成持续{MOODDAYS} 天。</UltimateInsult.description>
-  <!-- EN: If the {0} is satisfying, the target person will get a psylink upgrade. -->
-  <UltimateInsult.extraPredictedOutcomeDescriptions.0>如果 {0} 是满意的, 目标小人会得到一级启灵神经。</UltimateInsult.extraPredictedOutcomeDescriptions.0>
   <!-- EN: participant count -->
-  <UltimateInsult.comps.1.label>参与者数目</UltimateInsult.comps.1.label>
+  <UltimateInsult.comps.3.label>参与者数目</UltimateInsult.comps.3.label>
   <!-- EN: Terrible -->
   <UltimateInsult.outcomeChances.0.label>糟糕的</UltimateInsult.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! The speech was stuttering and incoherent. The focusing technique was botched. Everyone was waiting for it to end. -->

@@ -17,6 +17,4 @@
   <UltimateInsult.stages.0.failTriggers.0.desc>囚犯无法到达</UltimateInsult.stages.0.failTriggers.0.desc>
   <!-- EN: escort asleep -->
   <UltimateInsult.stages.0.failTriggers.1.desc>护送者正在睡觉</UltimateInsult.stages.0.failTriggers.1.desc>
-  <!-- EN: MadMan -->
-  <InsultBehaviorBase.roles.0.label>疯牛</InsultBehaviorBase.roles.0.label>
 </LanguageData>

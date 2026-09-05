@@ -59,10 +59,42 @@ Two things it had to work around:
   active — which is what the `LoadFolders.xml` in this repository is for. It is not the original's
   version-folder `LoadFolders.xml`, which was dropped.
 
-The Simplified Chinese translation is MoFish's and was kept as shipped, including the parts of it
-that do not resolve — nine files sitting loose at the root of `DefInjected/` instead of in a def
-type folder, and thought stages addressed by index rather than by handle. Fixing them would be a
-change to the original's own translation, which this update does not make.
+## The Simplified Chinese translation was repaired, not rewritten
+
+MoFish's Chinese translation was shipped in a state where a large part of it never reached the
+player. **Not one Chinese character was changed** — 53 distinct translated strings before, the
+same 53 after. What changed is where the keys point and which dead files sit in the way. A key is
+an address, not a translation.
+
+- **Eight files were duplicated in a place RimWorld does not read.** Seven sat loose at the root
+  of `DefInjected/` and one under `PreceptDef/RitualPatternDefs/`; the game only reads
+  `DefInjected/<DefType>/`. Each was byte-for-byte identical to a correctly placed twin, verified
+  before deleting.
+- **Three files in the correct folders held untranslated English placeholders**
+  (`Ritual_Behaviors_Insult.xml`, `Ritual_Outcomes_Insult.xml`,
+  `Thoughts_Ritual_Quality_PartyHard.xml`). The first two collide key for key with the real Chinese
+  in the same folder: fourteen keys where the same def and field are injected twice, once in
+  Chinese and once in English. Only one of the two applies, and which one depends on file load
+  order — so the ritual roles and all four outcome texts were a coin toss between MoFish's Chinese
+  and the English he had not yet replaced. The placeholders are gone, and the Chinese now applies
+  unambiguously.
+- **Eight thought-stage keys were addressed by index** (`TerribleInsult.stages.0.label`). RimWorld
+  falls back to the index only when a list element publishes no translation handle; these stages
+  all carry a `<label>`, so the path is built from that label normalised —
+  `stages.terrible_insulting.label`. The eight keys resolved to nothing, silently: a key matching
+  no path is not an error the game reports.
+- **One key aimed at a `MayRequire` field from the unconditional folder.**
+  `extraPredictedOutcomeDescriptions` exists only with Royalty, so MoFish's line for it moved to
+  `Royalty/`, exactly like its French counterpart.
+- **One key targeted a comp that has no label** (`comps.1`); the only comp carrying one is
+  `comps.3`. Re-aimed, so "参与者数目" now shows where it was meant to.
+
+The `roles.3.label` and `InsultBehaviorBase` keys were dropped: the ritual has three roles, and
+`InsultBehaviorBase` is an abstract def with no `defName`, so neither could ever resolve.
+
+What is left untouched: the explicit labels MoFish injects for the generated blueprint and frame
+defs. They are redundant — RimWorld builds those labels from the translated base label — but they
+are real translated content, so they stay.
 
 ## What 1.6 required
 

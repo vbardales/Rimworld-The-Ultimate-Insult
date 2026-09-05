@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RitualOutcomeEffectDef -->
+<LanguageData>
+
+  <!-- Loaded only when Royalty is active: see LoadFolders.xml. MoFish's line, moved here
+       unchanged - extraPredictedOutcomeDescriptions carries MayRequire on Royalty, so from
+       the unconditional folder this key aimed at a field that does not exist. -->
+
+  <!-- EN: If the {0} is satisfying, the target person will get a psylink upgrade. -->
+  <UltimateInsult.extraPredictedOutcomeDescriptions.0>如果 {0} 是满意的, 目标小人会得到一级启灵神经。</UltimateInsult.extraPredictedOutcomeDescriptions.0>
+
+</LanguageData>

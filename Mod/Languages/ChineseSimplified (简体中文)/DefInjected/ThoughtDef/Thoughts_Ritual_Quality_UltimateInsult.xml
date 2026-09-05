@@ -2,19 +2,19 @@
 <!-- ThoughtDef -->
 <LanguageData>
   <!-- EN: terrible insulting -->
-  <TerribleInsult.stages.0.label>糟糕的侮辱</TerribleInsult.stages.0.label>
+  <TerribleInsult.stages.terrible_insulting.label>糟糕的侮辱</TerribleInsult.stages.terrible_insulting.label>
   <!-- EN: That insulting was botched and the mood was way off. What an awkward ceremony. -->
-  <TerribleInsult.stages.0.description>那侮辱太拙劣了，气氛也很糟糕。多么尴尬的仪式啊。</TerribleInsult.stages.0.description>
+  <TerribleInsult.stages.terrible_insulting.description>那侮辱太拙劣了，气氛也很糟糕。多么尴尬的仪式啊。</TerribleInsult.stages.terrible_insulting.description>
   <!-- EN: boring insulting -->
-  <BoringInsult.stages.0.label>无聊的侮辱</BoringInsult.stages.0.label>
+  <BoringInsult.stages.boring_insulting.label>无聊的侮辱</BoringInsult.stages.boring_insulting.label>
   <!-- EN: That insulting lacked passion and the technique wasn't great. -->
-  <BoringInsult.stages.0.description>这种侮辱缺乏激情，技巧也不高明。</BoringInsult.stages.0.description>
+  <BoringInsult.stages.boring_insulting.description>这种侮辱缺乏激情，技巧也不高明。</BoringInsult.stages.boring_insulting.description>
   <!-- EN: satisfying insulting -->
-  <SatisfyingInsult.stages.0.label>令人满意的侮辱</SatisfyingInsult.stages.0.label>
+  <SatisfyingInsult.stages.satisfying_insulting.label>令人满意的侮辱</SatisfyingInsult.stages.satisfying_insulting.label>
   <!-- EN: That insulting was satisfying. The awakened has been granted a wonderful gift. -->
-  <SatisfyingInsult.stages.0.description>这种侮辱是令人满意的。受害者被赐予了一份奇妙的礼物。</SatisfyingInsult.stages.0.description>
+  <SatisfyingInsult.stages.satisfying_insulting.description>这种侮辱是令人满意的。受害者被赐予了一份奇妙的礼物。</SatisfyingInsult.stages.satisfying_insulting.description>
   <!-- EN: spectacular insulting -->
-  <SpectacularInsult.stages.0.label>令人惊叹的侮辱</SpectacularInsult.stages.0.label>
+  <SpectacularInsult.stages.spectacular_insulting.label>令人惊叹的侮辱</SpectacularInsult.stages.spectacular_insulting.label>
   <!-- EN: The mind's many wonders were laid clear for the briefest of instants. -->
-  <SpectacularInsult.stages.0.description>头脑里的许多奇想在一瞬间被弄清楚了。</SpectacularInsult.stages.0.description>
+  <SpectacularInsult.stages.spectacular_insulting.description>头脑里的许多奇想在一瞬间被弄清楚了。</SpectacularInsult.stages.spectacular_insulting.description>
 </LanguageData>

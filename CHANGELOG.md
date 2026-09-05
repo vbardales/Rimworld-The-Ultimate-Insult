@@ -25,6 +25,11 @@ First release of the 1.6 update. The mod's own logic is unchanged from MoFish's 
 
 - The settings window no longer scrolls. Its single checkbox was wrapped in a scroll view whose
   content was always taller than the window, so a scrollbar showed permanently for one option.
+- The Simplified Chinese translation now actually reaches the player. No Chinese text was changed:
+  eight files were duplicated where RimWorld does not look, three more held untranslated English
+  that collided with the real Chinese for the ritual roles and all four outcomes, eight thought
+  keys were addressed by list index instead of by stage handle, and two more aimed at fields that
+  do not exist. See `ATTRIBUTION.md` for the detail.
 
 
 ### Removed
