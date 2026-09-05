@@ -1,0 +1,17 @@
+# Agent worktrees. The monorepo's own .gitignore covers these, but it does not travel:
+# this repository is produced by `git subtree split`, which carries only this folder.
+#
+# Note that git is not the real safeguard here. RimWorld's Workshop uploader calls
+# SteamUGC.SetItemContent on the folder the junction points at and sends it whole, with no
+# filtering: it never reads a .gitignore, so anything dropped in the published folder ships.
+# What protects the publication is the split itself - only Mod/ is published, and the
+# junction in RimWorld\Mods points at Mod/, never at this root.
+.claude/
+
+# Build output. Directory.Build.props sends intermediates outside the mod folder entirely;
+# these entries are the safety net if that ever stops holding.
+.build/
+obj/
+bin/
+.vs/
+*.user
